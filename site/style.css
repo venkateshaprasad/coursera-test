@@ -1,5 +1,15 @@
+#heading {
+	font-family: serif;
+	color: lightblue;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 25px;
+	text-align: c;
+}
 body {
 		background-color: thistle;
+		padding: 1px;
+		margin: 5px;
 	}
 
 #top,#bottom li{
@@ -14,7 +24,9 @@ a:link , a:visited {
 		display: block;
 		width: 300px;
 		margin-bottom: 2px;
-		text-align: center;
+		text-align: middle;
+		height: 25px;
+		padding: 4px;
 	}
 
 a:hover , a:active {
@@ -25,31 +37,54 @@ a:hover , a:active {
 h2 {
 		color: lightblue;
 		background-color: black;
+		padding: 4px;
+		margin: 10px;
+
 	}
 
 p {
-		color: darkblue;
-		font-size: 20px;
+		color: mediumblue;
+		font-size: 18px;
+		padding: 2px;
+		margin: 5px;
 	}
 
 b {
-		color: violet;
-		background-color: black;
-		font-style: italic;
+		color: pink;
+		background-color: maroon;
+		font-size: 18px;
+		padding: 2px;
+		margin: 5px;
+		text-align: center;
+		width: 300px;
 	}
 
 ol>li{
-		color: darkblue;
+		color: maroon;
+		background-color: lightblue;
+		font-size: 18px;
+		padding: 10px;
+		margin: 5px;
+		width: 300px;
 	}
 
 #Basic{
 		color: darkblue;
+		background-color: lightblue;
+		font-size: 16px;
+		padding: 10px;
+		border: 2px solid maroon;
+		margin: 30px;
+		width: 700px;
 	}
 
 #top, #bottom{	
 		text-align: center;
 	}
 
+#intro {
+	text-align: justify;
+}
 .center {
   		display: block;
   		margin-left: auto;
@@ -57,3 +92,6 @@ ol>li{
   		width : 200px; 
   		height: 300px;
 	}
+ul > li {
+	color: brown;
+}
